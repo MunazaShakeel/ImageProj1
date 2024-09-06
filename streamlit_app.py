@@ -5,7 +5,7 @@ from PIL import Image
 import cv2
 
 # Load the saved model
-model = load_model('ann_model.keras')
+model = load_model('ann_model.h5')
 
 # Function to preprocess the image
 def preprocess_image(image):
